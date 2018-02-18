@@ -1,0 +1,33 @@
+{
+  "name": "koa-json2xlsx",
+  "version": "1.0.0",
+  "description": "json2xlsx middleware for koa.",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoobTW/koa-json2xlsx.git"
+  },
+  "keywords": [
+    "koa",
+    "json2xls",
+    "json2xlsx"
+  ],
+  "author": "NoobTW",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NoobTW/koa-json2xlsx/issues"
+  },
+  "homepage": "https://github.com/NoobTW/koa-json2xlsx#readme",
+  "dependencies": {
+    "json2xls": "^0.1.2"
+  },
+  "devDependencies": {
+    "koa": "^2.5.0",
+    "mocha": "^5.0.1",
+    "should": "^13.2.1",
+    "supertest": "^3.0.0"
+  }
+}
