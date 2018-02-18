@@ -30,7 +30,7 @@ describe('response', function() {
 
 	it('should be correct', function(done) {
 		var app = new Koa();
-		app.use(koaJson2xlsx);
+		app.use(koaJson2xlsx());
 
 		app.use(function(ctx){
 			ctx.xlsx('data.xlsx', jsonArr);

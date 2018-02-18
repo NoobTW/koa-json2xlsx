@@ -1,6 +1,6 @@
 {
   "name": "koa-json2xlsx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "json2xlsx middleware for koa.",
   "main": "lib/main.js",
   "scripts": {

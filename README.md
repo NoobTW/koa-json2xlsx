@@ -30,7 +30,7 @@ const data = [
   }
 ];
 
-app.use(koaJson2xlsx);
+app.use(koaJson2xlsx());
 app.use(ctx => {
   ctx.xlsx('data.xlsx', data);
 });
