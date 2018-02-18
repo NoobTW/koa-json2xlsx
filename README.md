@@ -1,8 +1,10 @@
 # koa-json2xlsx
 
-![Build status](https://travis-ci.org/NoobTW/koa-json2xlsx.svg?branch=master) ![Node version](https://img.shields.io/badge/node-%3E%3D_6-green.svg)
+![Build status](https://travis-ci.org/NoobTW/koa-json2xlsx.svg?branch=master) ![Node version](https://img.shields.io/badge/node-%3E%3D_7.6.0-green.svg)
 
 > Json to excel(xlsx) middleware for [koa](https://github.com/koajs/koa)
+
+Need async/await support, so you have to use Node v7.6+, or use `--harmony` option.
 
 ## Installation
 
